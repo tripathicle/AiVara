@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "AiVara-rg" {
   
  tags = {
     environment = "Stage"
-    owner       = "tripathICLE"
+    owner       = "tripathicle"
   }
 
 }
