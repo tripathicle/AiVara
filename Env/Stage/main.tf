@@ -1,6 +1,6 @@
-module "AiVara-Rg-module" {
-  source             = "../../Modules/AiVara_Resource_group"
-  Aivara-Rg-name     = "Aivara"
-  AiVara-Rg-location = "centralindia"
+module "AiVara-Rg" {
+  source   = "../../Modules/AiVara_Resource_group"
+  Rg-name  = var.name
+  location = var.location
 
 }
