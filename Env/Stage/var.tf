@@ -1,12 +1,10 @@
-variable "rg_name" {
-  type = string
-}
+variable "name" {
+  description = "The name of the Resource Group."
+  type        = string
 
+}
 variable "location" {
-  type = string
-}
+  description = "The Azure region where the Resource Group will be created."
+  type        = string
 
-variable "tags" {
-  type    = map(string)
-  default = {}
 }
