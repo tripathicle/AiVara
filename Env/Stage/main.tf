@@ -5,7 +5,6 @@ module "AiVara-Rg" {
 
 }
 
-<<<<<<< Updated upstream
 module "AiVara-Storage-Acoount" {
   depends_on = [module.AiVara-Rg]
   source     = "../../Modules/AiVara_Storage_Acoount"
@@ -18,14 +17,12 @@ module "AiVara-Storage-Acoount" {
   account-tier             = var.account-tier
   account-replication-type = var.account-replication-type
 }
-=======
+
 module "AiVara-Vnet" {
   depends_on          = [module.AiVara-Rg]
   source              = "../../Modules/AiVara_Vnet"
-  name                = var.Vnet-name
+  Vnet-name           = var.Vnet-name
   address_space       = var.address_space
   location            = var.location
   resource_group_name = var.name
 }
-
->>>>>>> Stashed changes

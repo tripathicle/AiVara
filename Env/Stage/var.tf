@@ -24,8 +24,6 @@ variable "account-replication-type" {
   description = "The replication type of the Storage Account. Valid options are 'LRS', 'GRS', 'RAGRS', 'ZRS', and 'GZRS'."
   type        = string
   default     = "LRS"
-<<<<<<< Updated upstream
-=======
 }
 
 variable "Vnet-name" {
@@ -47,16 +45,3 @@ variable "dns_servers" {
 }
 
 
-variable "Subnet-name" {
-  description = "value for Subnet name"
-  type        = string
-
-}
-
-variable "address_prefixes" {
-  description = "The address prefixes to use for the subnet."
-  type        = list(string)
-
-
->>>>>>> Stashed changes
-}
