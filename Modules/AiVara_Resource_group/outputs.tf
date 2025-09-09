@@ -1,17 +1,17 @@
-output "AiVara-RG-Name-output" {
+output "RG-Name-output" {
     description = "Name of Aivara-rg"
     # <resource_type>.<local_name>.<attribute>
-    value = azurerm_resource_group.AiVara-rg.name
+    value = azurerm_resource_group.AiVara-Rg-Block.name
   
 }
-output "AiVara-RG-Location-output" {
+output "RG-Location-output" {
     description = "Location of Aivara"
-    value = azurerm_resource_group.AiVara-rg.location
+    value = azurerm_resource_group.AiVara-Rg-Block.location
   
 }
 
-output "AiVara-RG-ID-output" {
+output "RG-ID-output" {
     description = "ID of Aivara"
-    value = azurerm_resource_group.AiVara-rg.id
-  
+    value = azurerm_resource_group.AiVara-Rg-Block.id
+
 }
