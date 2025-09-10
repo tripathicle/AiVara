@@ -25,4 +25,7 @@ module "AiVara-Vnet" {
   address_space       = var.address_space
   location            = var.location
   resource_group_name = var.name
+  dns_servers         = var.dns_servers
 }
+
+

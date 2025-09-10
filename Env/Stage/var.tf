@@ -26,22 +26,17 @@ variable "account-replication-type" {
   default     = "LRS"
 }
 
-variable "Vnet-name" {
-  description = "value for Vnet name"
-  type        = string
-
-}
 
 variable "address_space" {
-  description = "The address space that is used by the Virtual Network."
-  type        = list(string)
+    description = "The address space that is used by the Virtual Network."
+    type        = list(string)
 }
 
 variable "dns_servers" {
-  description = "A list of DNS servers IP addresses."
-  type        = list(string)
-
-
+    description = "A list of DNS servers IP addresses."
+    type        = list(string)
+   
+  
 }
 
 
