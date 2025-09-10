@@ -26,6 +26,10 @@ variable "account-replication-type" {
   default     = "LRS"
 }
 
+variable "Vnet-name" {
+    description = "The name of the Virtual Network."
+    type        = string
+}
 
 variable "address_space" {
     description = "The address space that is used by the Virtual Network."
