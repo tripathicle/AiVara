@@ -28,4 +28,3 @@ module "AiVara-Vnet" {
   dns_servers        = var.dns_servers
 
 }
-

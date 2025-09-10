@@ -42,5 +42,3 @@ variable "dns_servers" {
    
   
 }
-
-
