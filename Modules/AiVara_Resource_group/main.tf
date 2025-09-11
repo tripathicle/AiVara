@@ -1,11 +1,5 @@
-resource "azurerm_resource_group" "AiVara-rg" {
-  name = var.Aivara-Rg-name
-  location = var.AiVara-Rg-location
+resource "azurerm_resource_group" "AiVara-Rg-Block" {
+    name     = var.Rg-name
+    location = var.location
   
- tags = {
-    environment = "Stage"
-    owner       = "tripathICLE"
-  }
-
 }
-
