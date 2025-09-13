@@ -19,12 +19,12 @@ module "AiVara-Storage-Acoount" {
 }
 
 module "AiVara-Vnet" {
-  depends_on = [module.AiVara-Rg]
-  source     = "../../Modules/AiVara_Vnet"
-  Vnet-name  = var.Vnet-name
-  location   = var.location
+  depends_on          = [module.AiVara-Rg]
+  source              = "../../Modules/AiVara_Vnet"
+  Vnet-name           = var.Vnet-name
+  location            = var.location
   resource_group_name = var.name
   address_space       = var.address_space
-  dns_servers        = var.dns_servers
+  dns_servers         = var.dns_servers
 
 }

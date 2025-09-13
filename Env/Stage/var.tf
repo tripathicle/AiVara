@@ -57,15 +57,6 @@ variable "address_prefixes" {
 
 
 }
-   
-variable "address_space" {
-    description = "The address space that is used by the Virtual Network."
-    type        = list(string)
-}
 
-variable "dns_servers" {
-    description = "A list of DNS servers IP addresses."
-    type        = list(string)
-   
-  
-}
+
+
